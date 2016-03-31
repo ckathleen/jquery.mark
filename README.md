@@ -5,6 +5,7 @@
 [![Dependency Status][dependency-status-image]][dependency-status]
 [![Build Status][build-status-image]][build-status]
 [![Code quality][code-quality-image]][code-quality]
+[![Coverage Status][coverage-image]][coverage]
 [![Bower Version][bower-version-image]][bower-version]
 [![License][license-image]][license]
 
@@ -156,12 +157,14 @@ Happy hacking!
 [dependency-status]: https://www.versioneye.com/user/projects/55893384306662001e0000e8
 [build-status]: https://travis-ci.org/julmot/jquery.mark
 [code-quality]: https://www.codacy.com/app/julmot/jquery.mark
+[coverage]: https://coveralls.io/github/julmot/jquery.mark?branch=master
 [bower-version]: https://github.com/julmot/jquery.mark
 [license]: https://raw.githubusercontent.com/julmot/jquery.mark/master/LICENSE
 
 [dependency-status-image]:https://img.shields.io/versioneye/d/javascript/julmot:jquery.mark.svg
 [build-status-image]: https://img.shields.io/travis/julmot/jquery.mark/master.svg
 [code-quality-image]:https://img.shields.io/codacy/27a3ed45370f41e89b02073b214c18a7.svg
+[coverage-image]: https://img.shields.io/coveralls/julmot/jquery.mark.svg?branch=master&label=test+coverage
 [bower-version-image]:https://img.shields.io/bower/v/jquery.mark.svg
 [license-image]:https://img.shields.io/badge/license-MIT-blue.svg
 

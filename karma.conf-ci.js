@@ -139,14 +139,15 @@ module.exports = function (config) {
             "karma-phantomjs-launcher",
             "karma-spec-reporter",
             "karma-sauce-launcher",
-            "karma-coverage"
+            "karma-coverage",
+            "karma-coveralls"
         ],
         sauceLabs: {
             testName: "jquery.mark Unit Tests"
         },
         customLaunchers: customLaunchers,
         browsers: Object.keys(customLaunchers),
-        reporters: ["spec", "saucelabs", "coverage"],
+        reporters: ["spec", "saucelabs", "coverage", "coveralls"],
         // in case Sauce Labs is slow
         captureTimeout: 180000, // 3 min
         browserDisconnectTimeout: 60000, // 1 min
@@ -159,11 +160,14 @@ module.exports = function (config) {
         coverageReporter: {
             dir: "build/coverage/",
             reporters: [{
-                type: 'html',
-                subdir: 'report-html'
+                type: "html",
+                subdir: "report-html"
             }, {
-                type: 'text'
-            }, ]
+                type: "lcov",
+                subdir: "report-lcov"
+            }, {
+                type: "text"
+            }]
         }
     });
 };

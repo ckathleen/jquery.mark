@@ -39,11 +39,11 @@ module.exports = function (config) {
         coverageReporter: {
             dir: "build/coverage/",
             reporters: [{
-                type: 'html',
-                subdir: 'report-html'
+                type: "html",
+                subdir: "report-html"
             }, {
-                type: 'text'
-            }, ]
+                type: "text"
+            }]
         }
     });
 };
